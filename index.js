@@ -1,3 +1,5 @@
+const geojsonvt = require('geojson-vt');
+
 L.GridLayer.GeoJSON = L.GridLayer.extend({
     options: {
         async: false
